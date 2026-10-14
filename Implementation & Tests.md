@@ -16,12 +16,12 @@
 
 | Test | Actual Result |
 |------|---------------|
-| Health check endpoint and status for primary instance | [Record result] |
-| Health check endpoint and status for secondary instance | [Record result] |
-| Primary website online | [Record result] |
-| Secondary website online | [Record result] |
-| DNS records configured | [Record result] |
-| Simulated unhealthy status | [Record measured time] |
-| Primary webpage redirected to secondary | [Record result] |
-| Traffic returned to primary after recovery| [Record result] |
-| Traffic returned to primary after recovery | [Record result] |
+| Health check endpoint and status for primary instance | [Health-check-primary.png](Screenshots/Health-check-primary.png) |
+| Health check endpoint and status for secondary instance | [Health-check-secondary.png](Screenshots/Health-check-secondary.png) |
+| Primary website online | [Primary-website.png](Screenshots/Primary-website.png) |
+| Secondary website online | [Secondary-website.png](Screenshots/Secondary-website.png) |
+| DNS records configured | [Hosted-zones&records.png](Screenshots/Hosted-zones%26records.png)|
+| Simulated unhealthy status | [Unhealthy-status-simulated.png](Screenshots/Unhealthy-status-simulated.png)|
+| Primary webpage redirected to secondary | [Failover-target-successfull.png](Screenshots/Failover-target-successfull.png) |
+| Traffic returned to primary after recovery| [Restore-primary-web.png](Screenshots/Restore-primary-web.png) |
+| Traffic returned to primary after recovery | [Restore-primary-webb.png](Screenshots/Restore-primary-webb.png) |
