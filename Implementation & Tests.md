@@ -16,12 +16,12 @@
 
 | Test | Actual Result |
 |------|---------------|
-| Health check endpoint and status for primary instance | [Health-check-primary.png](Screenshots/Health-check-primary.png) |
-| Health check endpoint and status for secondary instance | [Health-check-secondary.png](Screenshots/Health-check-secondary.png) |
-| Primary website online | [Primary-website.png](Screenshots/Primary-website.png) |
-| Secondary website online | [Secondary-website.png](Screenshots/Secondary-website.png) |
-| DNS records configured | [Hosted-zones&records.png](Screenshots/Hosted-zones%26records.png)|
-| Simulated unhealthy status | [Unhealthy-status-simulated.png](Screenshots/Unhealthy-status-simulated.png)|
-| Primary webpage redirected to secondary | [Failover-target-successfull.png](Screenshots/Failover-target-successfull.png) |
-| Traffic returned to primary after recovery| [Restore-primary-web.png](Screenshots/Restore-primary-web.png) |
-| Traffic returned to primary after recovery | [Restore-primary-webb.png](Screenshots/Restore-primary-webb.png) |
+| Health check endpoint and status for primary instance | [Health-check-primary.png](screenshots/Health-check-primary.png) |
+| Health check endpoint and status for secondary instance | [Health-check-secondary.png](screenshots/Health-check-secondary.png) |
+| Primary website online | [Primary-website.png](screenshots/Primary-website.png) |
+| Secondary website online | [Secondary-website.png](screenshots/Secondary-website.png) |
+| DNS records configured | [Hosted-zones&records.png](screenshots/Hosted-zones%26records.png)|
+| Simulated unhealthy status | [Unhealthy-status-simulated.png](screenshots/Unhealthy-status-simulated.png)|
+| Primary webpage redirected to secondary | [Failover-target-successfull.png](screenshots/Failover-target-successfull.png) |
+| Traffic returned to primary after recovery| [Restore-primary-web.png](screenshots/Restore-primary-web.png) |
+| Traffic returned to primary after recovery | [Restore-primary-webb.png](screenshots/Restore-primary-webb.png) |
