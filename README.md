@@ -21,6 +21,7 @@ Deploy two independent EC2 web servers and configure Amazon Route 53 failover ro
 
 ## 4. Architecture
 
+```text
 Users
   |
   v
@@ -29,6 +30,7 @@ Amazon Route 53
   +---- Primary EC2 / Nginx
   |
   +---- Secondary EC2 / Nginx
+```
 
 ## 5. AWS Services and Technologies
 
