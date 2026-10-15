@@ -12,6 +12,8 @@
 11. Enabled Nginx on primary instance
 12. Primary health check shows healthy again and primary web page is back online.
 
+
+
 ## 7. Testing and Results
 
 | Test | Result |
@@ -25,3 +27,8 @@
 | Primary webpage redirected to secondary | [Failover-target-successfull.png](screenshots/Failover-target-successfull.png) |
 | Traffic returned to primary after recovery| [Restore-primary-web.png](screenshots/Restore-primary-web.png) |
 | Traffic returned to primary after recovery | [Restore-primary-webb.png](screenshots/Restore-primary-webb.png) |
+
+
+
+Conclusion
+Successfully implemented and tested a highly available web architecture using AWS EC2, Nginx, Route 53, and health checks. Verified automatic DNS failover to the secondary server during primary server failure and confirmed traffic returned to the primary server after recovery.
