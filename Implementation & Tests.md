@@ -12,6 +12,8 @@
 11. Enabled Nginx on primary instance
 12. Primary health check shows healthy again and primary web page is back online.
 
+<br>
+<br>
 
 
 ## 7. Testing and Results
@@ -28,7 +30,10 @@
 | Traffic returned to primary after recovery| [Restore-primary-web.png](screenshots/Restore-primary-web.png) |
 | Traffic returned to primary after recovery | [Restore-primary-webb.png](screenshots/Restore-primary-webb.png) |
 
+<br>
+<br>
+<br>
+CONCLUSION
 
 
-Conclusion
-Successfully implemented and tested a highly available web architecture using AWS EC2, Nginx, Route 53, and health checks. Verified automatic DNS failover to the secondary server during primary server failure and confirmed traffic returned to the primary server after recovery.
+This project solves the problem of website downtime caused by server failures by implementing high availability and automatic DNS failover using AWS EC2, Route 53, and health checks. In real-world scenarios, such as e-commerce websites, banking portals, and business applications, this solution helps maintain website availability by redirecting users to a secondary server when the primary server becomes unhealthy and routing traffic back after recovery. This reduces service disruption, improves reliability, and provides a better user experience.
