@@ -18,17 +18,17 @@
 
 ## 7. Testing and Results
 
-| Test | Result |
-|------|---------------|
-| Health check endpoint and status for primary instance | [Health-check-primary.png](screenshots/Health-check-primary.png) |
-| Health check endpoint and status for secondary instance | [Health-check-secondary.png](screenshots/Health-check-secondary.png) |
-| Primary website online | [Primary-website.png](screenshots/Primary-website.png) |
-| Secondary website online | [Secondary-website.png](screenshots/Secondary-website.png) |
-| DNS records configured | [Hosted-zones&records.png](screenshots/Hosted-zones%26records.png)|
-| Simulated unhealthy status | [Unhealthy-status-simulated.png](screenshots/Unhealthy-status-simulated.png)|
-| Primary webpage redirected to secondary | [Failover-target-successfull.png](screenshots/Failover-target-successfull.png) |
-| Traffic returned to primary after recovery| [Restore-primary-web.png](screenshots/Restore-primary-web.png) |
-| Traffic returned to primary after recovery | [Restore-primary-webb.png](screenshots/Restore-primary-webb.png) |
+| Test | Description | Result |
+|------|-------------|--------|
+|  1 | Created the health check endpoint and checked its status for the primary instance to confirm it was responding correctly and reported as healthy | [Health-check-primary.png](screenshots/Health-check-primary.png) |
+|  2 | Created the health check endpoint and checked its status for the secondary instance to confirm it was also responding correctly and ready to take over traffic | [Health-check-secondary.png](screenshots/Health-check-secondary.png) |
+|  3 | Verified that the primary website was online and accessible through the browser, serving content as expected | [Primary-website.png](screenshots/Primary-website.png) |
+|  4 | Verified that the secondary website was online and accessible through the browser, serving content as expected | [Secondary-website.png](screenshots/Secondary-website.png) |
+|  5 | Reviewed the hosted zone and confirmed that the DNS records were configured correctly for the primary and secondary routing setup | [Hosted-zones&records.png](screenshots/Hosted-zones%26records.png) |
+|  6 | Simulated an unhealthy status on the primary instance so that the health check would fail and trigger the failover process | [Unhealthy-status-simulated.png](screenshots/Unhealthy-status-simulated.png) |
+|  7 | Confirmed that failover worked, with the primary webpage request being redirected to the secondary website after the primary was marked unhealthy | [Failover-target-successfull.png](screenshots/Failover-target-successfull.png) |
+|  8 | Restored the primary instance and verified that traffic returned to the primary website after recovery | [Restore-primary-web.png](screenshots/Restore-primary-web.png) |
+|  9 | Verified once more that traffic was being served from the primary website after recovery, confirming the failback was stable | [Restore-primary-webb.png](screenshots/Restore-primary-webb.png) |
 
 <br>
 <br>
