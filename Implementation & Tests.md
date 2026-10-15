@@ -14,7 +14,7 @@
 
 ## 7. Testing and Results
 
-| Test | Actual Result |
+| Test | Result |
 |------|---------------|
 | Health check endpoint and status for primary instance | [Health-check-primary.png](screenshots/Health-check-primary.png) |
 | Health check endpoint and status for secondary instance | [Health-check-secondary.png](screenshots/Health-check-secondary.png) |
