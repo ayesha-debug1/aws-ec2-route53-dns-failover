@@ -18,7 +18,7 @@
 
 ## 2. Testing and Results
 
-| Test | Description | Result |
+| Step | Description | Result |
 |------|-------------|--------|
 |  1 | Created the health check endpoint and checked its status for the primary instance to confirm it was responding correctly and reported as healthy | [Health-check-primary.png](screenshots/Health-check-primary.png) |
 |  2 | Created the health check endpoint and checked its status for the secondary instance to confirm it was also responding correctly and ready to take over traffic | [Health-check-secondary.png](screenshots/Health-check-secondary.png) |
